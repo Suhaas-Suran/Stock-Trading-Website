@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+.footer-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-links .link {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: gray; /* Default gray color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links .link:hover {
+  color: blue; /* Blue on hover */
+}
+
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+  padding: 30px 0; /* Reduce the top and bottom padding */
+  padding-bottom: 50px; /* Increased bottom padding */
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px; /* Smaller margin for proper alignment */
+}
+
+#supportHero input {
+  padding: 12px 20px; /* Reduce input padding */
+  width: 90%;
+  font-size: 18px; /* Keep font size smaller */
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px; /* Add a small gap from the heading */
+}
+
+
+#supportHero a {
+  color: white;
+  margin-right: 10px; /* Less space between links */
+}
+
+#supportHero h1 {
+  font-size: 20px; /* Slightly reduce font size for better alignment */
+  margin-bottom: 15px; /* Less space below the header */
+}
+
+#supportHero ol {
+  padding-left: 20px; /* Optional: Adjust left padding */
+}
+
+#supportHero li {
+  white-space: nowrap; /* Prevent wrapping to keep it in one line */
+  margin-bottom: 10px; /* Add gap between list items */
+}
+
+
+
+
